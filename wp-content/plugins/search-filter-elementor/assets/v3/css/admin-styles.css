@@ -1,0 +1,11 @@
+.elementor-element .icon .search-filter-field-icon:before {
+    content: "";
+    background-image: url(../img/search-filter.svg);
+    height: 28px;
+    width: 28px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}

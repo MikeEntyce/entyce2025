@@ -1,0 +1,61 @@
+# ignore wp-config file (database connection)
+wp-config.php
+
+# Ignore everything in the root directory
+/*
+# Except for the .gitignore file
+!.gitignore
+!node_modules/
+
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+
+# ignore everything in the "plugins" directory, except:
+# wp-content/plugins/*
+# !wp-content/plugins/gravityforms
+
+# ignore everything in the "wp-content" directory, except:
+# "themes" directory
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+# ignore custom style and functions
+wp-content/themes/hello-theme-child-master/css/custom.scss
+wp-content/themes/hello-theme-child-master/css/custom.css
+wp-content/themes/hello-theme-child-master/js/custom.js
+wp-content/themes/hello-theme-child-master/functions-custom.php
+
+# ignore these plugins
+wp-content/plugins/hello.php
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+samples
+sftp-config.json
+# ignore images folder
+wp-content/themes/entyce/images/
+
+# ignore the following folders
+.DS_Store
+.history/
+wp-admin/
+wp-includes/
+wp-snapshots/
+public_html/bo
+/samples.zip
+
+# ignore node dependency directories
+#node_modules/
+/notes
+/public/wp-config.php
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+/public/wp-content/themes/entyce/woocommerce/not_in_use.zip
+*.log
+/public/bo
+
+node_modules
