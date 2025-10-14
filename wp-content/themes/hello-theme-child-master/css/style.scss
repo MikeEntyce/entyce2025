@@ -103,6 +103,10 @@ $black:#1E2223;
   color: var(--e-global-color-secondary);
 }
 
+p {
+    font-size: var(--wp--preset--font-size--medium, 20px);
+}
+
 body a {
   color: var(--e-global-color-text);
 }
