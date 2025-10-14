@@ -21,10 +21,10 @@ wp-content/*
 !wp-content/plugins/
 
 # ignore custom style and functions
-wp-content/themes/hello-theme-child-master/css/custom.scss
-wp-content/themes/hello-theme-child-master/css/custom.css
-wp-content/themes/hello-theme-child-master/js/custom.js
-wp-content/themes/hello-theme-child-master/functions-custom.php
+#wp-content/themes/hello-theme-child-master/css/custom.scss
+#wp-content/themes/hello-theme-child-master/css/custom.css
+#wp-content/themes/hello-theme-child-master/js/custom.js
+#wp-content/themes/hello-theme-child-master/functions-custom.php
 
 # ignore these plugins
 wp-content/plugins/hello.php

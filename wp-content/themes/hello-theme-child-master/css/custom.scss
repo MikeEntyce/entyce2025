@@ -1,0 +1,129 @@
+:root {
+    --container-max-width: 1520px;
+}
+
+body {
+
+    p:last-of-type {
+        margin-bottom:0 !important;
+    }
+    
+  .gform_wrapper {
+    
+    input[type="text"], input[type="email"], select, textarea {
+        border:1px solid #79B0AB !important;
+        border-radius: 0;
+        padding-left: 16px !important;
+        color:var(--e-a-color-txt) !important;
+        &::placeholder {
+            color:#2F2F2F;
+        }
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color:#2F2F2F;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color:#2F2F2F;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color:#2F2F2F;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color:#2F2F2F;
+        }
+    }
+    
+    input[type=submit] {
+        border-radius: 30px !important;
+        padding: 0.5em 1.2em 0.5em 1.2em !important;
+        // font-size: 1.125em !important;
+        // line-height: 1;
+        background-color: var(--e-global-color-primary) !important;
+        // color:#fff !important;
+        // border:0 !important;
+        // min-width: 177px;
+        font-family: var(--e-global-typography-primary-font-family) !important;
+        width:100% !important;
+        text-align: left !important;
+    }
+}
+
+ .elementor-button-wrapper .elementor-button {
+
+  //font-family:var(--e-global-typography-primary-font-family);
+
+    &.button-no_icon {
+      //padding:1.25em 5em 1.25em 1.31em;
+    }
+
+    &.entyce-button-1 {
+    //   background-image: url("");
+    //   background-repeat:no-repeat;
+      background-position: 95% 50%;
+      //min-width:257px;
+    //   text-align: left;
+      &:hover {
+          background-position: 97% 50%;
+      }
+    }
+    }
+
+    .gfield--type-submit input {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTEiIGN5PSIxMSIgcj0iMTEiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xNy4zNTM2IDExLjM1MzZDMTcuNTQ4OCAxMS4xNTgzIDE3LjU0ODggMTAuODQxNyAxNy4zNTM2IDEwLjY0NjRMMTQuMTcxNiA3LjQ2NDQ3QzEzLjk3NjMgNy4yNjkyIDEzLjY1OTcgNy4yNjkyIDEzLjQ2NDUgNy40NjQ0N0MxMy4yNjkyIDcuNjU5NzMgMTMuMjY5MiA3Ljk3NjMxIDEzLjQ2NDUgOC4xNzE1N0wxNi4yOTI5IDExTDEzLjQ2NDUgMTMuODI4NEMxMy4yNjkyIDE0LjAyMzcgMTMuMjY5MiAxNC4zNDAzIDEzLjQ2NDUgMTQuNTM1NUMxMy42NTk3IDE0LjczMDggMTMuOTc2MyAxNC43MzA4IDE0LjE3MTYgMTQuNTM1NUwxNy4zNTM2IDExLjM1MzZaTTUgMTEuNUwxNyAxMS41TDE3IDEwLjVMNSAxMC41TDUgMTEuNVoiIGZpbGw9IiM1NzVFNjgiLz4KPC9zdmc+Cg==);
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+          &:hover {
+          background-position: 97% 50%;
+      }
+}
+
+}
+
+.e-n-accordion-item-title-icon {
+    position: absolute !important;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.footer-mobile .e-n-accordion-item-title {
+    padding-left: 0 !important;
+}
+
+.e-filter button.e-filter-item {
+    min-width: 304px;
+}
+
+.ue_timeline_item_content_main {
+  max-width: 476px;
+}
+
+@media (max-width:769px) {
+    
+    .e-filter-mobile-dropdown {
+
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAyMCAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS4zNTQ3IDE2LjcyOTVMMTkuNDY0OCA4LjkxNjk5TDE5LjQ2NDggNy44MTIzTDExLjM1NDcgLTAuMDAwMTk5MDczTDEwLjIwNzkgMS4xMDQ0OUwxNi45MzI4IDcuNTg0MThMMC4wMDA0MDcwMzMgNy41ODQxOEwwLjAwMDQwNjkwMiA5LjE0NjY4TDE2LjkzNDUgOS4xNDY2OEwxMC4yMDYzIDE1LjYyNDhMMTEuMzU0NyAxNi43Mjk1WiIgZmlsbD0iI0MwRTREQyIvPgo8L3N2Zz4K") !important;
+        background-size:19px !important;
+        border:0 !important;
+            
+        }
+
+      .ue_timeline_item_content_main {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .ue_timeline_item:nth-of-type(even) {
+        .ue_timeline_item_content_main {
+        align-items: flex-end;  
+      }
+      }
+
+}
+
+@media (max-width:500px) {
+    
+  .e-filter-mobile-dropdown {
+      border:1px solid #c0e4dc !important;
+      color:#62605D !important;
+  }
+
+}
