@@ -42,10 +42,10 @@ function hello_elementor_child_scripts_styles() {
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
 
 // Disable parent theme's main stylesheet (style.min.css)
-add_filter( 'hello_elementor_enqueue_style', '__return_false' );
+//add_filter( 'hello_elementor_enqueue_style', '__return_false' );
 
 // Disable parent theme's additional stylesheet (theme.min.css)
-add_filter( 'hello_elementor_enqueue_theme_style', '__return_false' );
+//add_filter( 'hello_elementor_enqueue_theme_style', '__return_false' );
 
 // Get the current script's directory
 $currentDir = __DIR__;

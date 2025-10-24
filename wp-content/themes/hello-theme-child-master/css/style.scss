@@ -1,4 +1,5 @@
 body {
+  margin:0;
   .font-12 {
     font-size: 0.75em;
   }
@@ -54,6 +55,10 @@ body {
       font-weight: 800;
   }
 
+  h1,h2,h3 {
+    letter-spacing: -1.5px;
+  }
+
   // .elementor-size-md {
   //   min-width: 194px
   // }
@@ -103,8 +108,16 @@ $black:#1E2223;
   color: var(--e-global-color-secondary);
 }
 
-p {
+p
+ {
     font-size: var(--wp--preset--font-size--medium, 20px);
+    
+}
+body p,
+body.page p,
+body.elementor-default p
+ {
+    line-height: 1.5;
 }
 
 body a {
@@ -139,6 +152,23 @@ body a {
 }
 .mb-3 {
   margin-bottom: 1.875em;
+}
+
+.py-0,
+.py-0 > .e-con-inner
+{
+  padding-top:0 !important;
+  padding-bottom: 0 !important;
+}
+.pt-0,
+.pt-0 > .e-con-inner
+ {
+  padding-top:0 !important;
+}
+.pb-0,
+.pb-0 > .e-con-inner
+ {
+  padding-bottom: 0 !important;
 }
 
 // .display-1 {

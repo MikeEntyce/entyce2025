@@ -96,6 +96,15 @@ body {
   max-width: 476px;
 }
 
+.e-loop-item  {
+    .elementor-post-info__terms-list a {
+        color:#FF76A2;
+    }
+    .elementor-post-info__item--type-date {
+        font-weight: 700;
+    }
+}
+
 @media (max-width:769px) {
     
     .e-filter-mobile-dropdown {

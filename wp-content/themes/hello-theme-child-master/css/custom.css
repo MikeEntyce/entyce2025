@@ -83,6 +83,14 @@ body .gfield--type-submit input:hover {
   max-width: 476px;
 }
 
+.e-loop-item .elementor-post-info__terms-list a {
+  color: #FF76A2;
+}
+
+.e-loop-item .elementor-post-info__item--type-date {
+  font-weight: 700;
+}
+
 @media (max-width: 769px) {
   .e-filter-mobile-dropdown {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAyMCAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS4zNTQ3IDE2LjcyOTVMMTkuNDY0OCA4LjkxNjk5TDE5LjQ2NDggNy44MTIzTDExLjM1NDcgLTAuMDAwMTk5MDczTDEwLjIwNzkgMS4xMDQ0OUwxNi45MzI4IDcuNTg0MThMMC4wMDA0MDcwMzMgNy41ODQxOEwwLjAwMDQwNjkwMiA5LjE0NjY4TDE2LjkzNDUgOS4xNDY2OEwxMC4yMDYzIDE1LjYyNDhMMTEuMzU0NyAxNi43Mjk1WiIgZmlsbD0iI0MwRTREQyIvPgo8L3N2Zz4K") !important;
