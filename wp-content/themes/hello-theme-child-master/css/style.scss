@@ -108,11 +108,10 @@ $black:#1E2223;
   color: var(--e-global-color-secondary);
 }
 
-p
- {
-    font-size: var(--wp--preset--font-size--medium, 20px);
-    
+p {
+  font-size: clamp(1rem, 4vw, var(--wp--preset--font-size--medium, 1.25rem));
 }
+
 body p,
 body.page p,
 body.elementor-default p
@@ -259,6 +258,12 @@ body a {
 .cn-button {
     background-color: var(--e-global-color-secondary) !important;
     color: var(--e-global-color-text) !important;
+}
+
+body {
+  .elementor-widget-custom_button.Hide {
+    display:none !important;
+  }
 }
 
 /* Apply 200px side padding only on desktops/laptops (1025px+) */
