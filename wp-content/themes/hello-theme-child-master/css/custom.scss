@@ -11,9 +11,10 @@ body {
   .gform_wrapper {
     
     input[type="text"], input[type="email"], select, textarea {
-        border:1px solid #79B0AB !important;
+        border:0px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
         border-radius: 0;
-        padding-left: 16px !important;
+        padding-left: 0px !important;
         color:var(--e-a-color-txt) !important;
         &::placeholder {
             color:#2F2F2F;
@@ -30,6 +31,14 @@ body {
         &:-moz-placeholder { /* Firefox 18- */
           color:#2F2F2F;
         }
+        box-shadow: none !important;
+        font-size: var(--wp--preset--font-size--medium);
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    textarea {
+      height:60px;
     }
     
     input[type=submit] {
@@ -42,8 +51,20 @@ body {
         // border:0 !important;
         // min-width: 177px;
         font-family: var(--e-global-typography-primary-font-family) !important;
-        width:100% !important;
+        //width:100% !important;
         text-align: left !important;
+    }
+}
+
+.gform-footer.gform_footer.top_label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.job-desc-wrapper {
+    h3 {
+        margin-top:1em;
+        margin-bottom:1em;
     }
 }
 
@@ -79,10 +100,10 @@ body {
 }
 
 .e-n-accordion-item-title-icon {
-    position: absolute !important;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+    // position: absolute !important;
+    // top: 24px;
+    // right: 10px;
+    // transform: translateY(-50%);
 }
 .footer-mobile .e-n-accordion-item-title {
     padding-left: 0 !important;
@@ -103,6 +124,10 @@ body {
     .elementor-post-info__item--type-date {
         font-weight: 700;
     }
+}
+
+.uc_logo_marquee_holder {
+ width:inherit !important   
 }
 
 @media (max-width:769px) {
@@ -133,6 +158,17 @@ body {
   .e-filter-mobile-dropdown {
       border:1px solid #c0e4dc !important;
       color:#62605D !important;
+  }
+
+
+  h1 {
+    font-size: 50px !important
+  }
+  h2 {
+    font-size: 40px !important
+  }
+  h3 {
+    font-size: 32px !important
   }
 
 }

@@ -7,10 +7,15 @@ body p:last-of-type {
 }
 
 body .gform_wrapper input[type="text"], body .gform_wrapper input[type="email"], body .gform_wrapper select, body .gform_wrapper textarea {
-  border: 1px solid #79B0AB !important;
+  border: 0px solid #000 !important;
+  border-bottom: 1px solid #000 !important;
   border-radius: 0;
-  padding-left: 16px !important;
+  padding-left: 0px !important;
   color: var(--e-a-color-txt) !important;
+  box-shadow: none !important;
+  font-size: var(--wp--preset--font-size--medium);
+  font-style: italic;
+  font-weight: 300;
 }
 
 body .gform_wrapper input[type="text"]::placeholder, body .gform_wrapper input[type="email"]::placeholder, body .gform_wrapper select::placeholder, body .gform_wrapper textarea::placeholder {
@@ -37,13 +42,26 @@ body .gform_wrapper input[type="text"]:-moz-placeholder, body .gform_wrapper inp
   color: #2F2F2F;
 }
 
+body .gform_wrapper textarea {
+  height: 60px;
+}
+
 body .gform_wrapper input[type=submit] {
   border-radius: 30px !important;
   padding: 0.5em 1.2em 0.5em 1.2em !important;
   background-color: var(--e-global-color-primary) !important;
   font-family: var(--e-global-typography-primary-font-family) !important;
-  width: 100% !important;
   text-align: left !important;
+}
+
+body .gform-footer.gform_footer.top_label {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body .job-desc-wrapper h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 body .elementor-button-wrapper .elementor-button.entyce-button-1 {
@@ -62,13 +80,6 @@ body .gfield--type-submit input {
 
 body .gfield--type-submit input:hover {
   background-position: 97% 50%;
-}
-
-.e-n-accordion-item-title-icon {
-  position: absolute !important;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
 }
 
 .footer-mobile .e-n-accordion-item-title {
@@ -91,6 +102,10 @@ body .gfield--type-submit input:hover {
   font-weight: 700;
 }
 
+.uc_logo_marquee_holder {
+  width: inherit !important;
+}
+
 @media (max-width: 769px) {
   .e-filter-mobile-dropdown {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAyMCAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS4zNTQ3IDE2LjcyOTVMMTkuNDY0OCA4LjkxNjk5TDE5LjQ2NDggNy44MTIzTDExLjM1NDcgLTAuMDAwMTk5MDczTDEwLjIwNzkgMS4xMDQ0OUwxNi45MzI4IDcuNTg0MThMMC4wMDA0MDcwMzMgNy41ODQxOEwwLjAwMDQwNjkwMiA5LjE0NjY4TDE2LjkzNDUgOS4xNDY2OEwxMC4yMDYzIDE1LjYyNDhMMTEuMzU0NyAxNi43Mjk1WiIgZmlsbD0iI0MwRTREQyIvPgo8L3N2Zz4K") !important;
@@ -110,5 +125,14 @@ body .gfield--type-submit input:hover {
   .e-filter-mobile-dropdown {
     border: 1px solid #c0e4dc !important;
     color: #62605D !important;
+  }
+  h1 {
+    font-size: 50px !important;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 32px !important;
   }
 }
